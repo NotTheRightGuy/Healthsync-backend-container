@@ -1,0 +1,9 @@
+flask
+scikit-learn
+flask_cors
+openai
+Pillow
+python-dotenv
+cloudinary
+langchain-community
+langchain-openai
