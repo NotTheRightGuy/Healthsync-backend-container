@@ -13,6 +13,10 @@ app.use(express.json());
 app.use(logger);
 app.use("/api/v1", routes);
 
+app.get('/',(req, res) => {
+    res.send('Express Server for HealthSync');
+});
+
 app.listen(process.env.PORT, () => {
     console.log(`Server is running on port ${process.env.PORT}`);
 });

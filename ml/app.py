@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.get('/')
 def index():
-    return "Hello World"
+    return {"msg":"HealthSync's Flask Server", "routes": ["/predict", "/create-prescription", "/generate-feedback"]}
 
 @app.post("/predict")
 def predict():
