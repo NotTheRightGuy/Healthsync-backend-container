@@ -1,6 +1,5 @@
 flask
 scikit-learn
-flask_cors
 openai
 Pillow
 python-dotenv
