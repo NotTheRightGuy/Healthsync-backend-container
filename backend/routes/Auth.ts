@@ -2,7 +2,7 @@
 import Router from 'express';
 
 const app = Router();
-
+require('dotenv').config();
 // Prisma Imports
 import {PrismaClient} from '@prisma/client'
 
